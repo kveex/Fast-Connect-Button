@@ -1,0 +1,7 @@
+{
+  "fast_connect_button.configuration.title": "Fast Connect Button Config",
+  "fast_connect_button.configuration.section.fast.connect.button.client.toml": "Fast Connect Button Config",
+  "fast_connect_button.configuration.section.fast.connect.button.client.toml.title": "Fast Connect Button Config",
+  "fast_connect_button.configuration.serverAddress": "Server Address",
+  "fast_connect_button.configuration.serverAddress.tooltip": "Address of a server to connect to"
+}
