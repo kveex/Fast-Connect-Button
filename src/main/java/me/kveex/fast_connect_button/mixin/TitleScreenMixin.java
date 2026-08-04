@@ -73,8 +73,7 @@ public abstract class TitleScreenMixin extends Screen {
 
         realmsButton.active = !isMultiplayerDisabled;
 
-
-        this.addRenderableWidget(fastConnectButton);
+        if (fastConnectButtonBounds != ButtonBounds.NOWHERE) this.addRenderableWidget(fastConnectButton);
         if (fastConnectButtonBounds != ButtonBounds.REPLACE_SINGLEPLAYER) this.addRenderableWidget(singlePlayerButton);
         if (fastConnectButtonBounds != ButtonBounds.REPLACE_MULTIPLAYER) this.addRenderableWidget(multiPlayerButton);
         if (fastConnectButtonBounds != ButtonBounds.REPLACE_REALMS) this.addRenderableWidget(realmsButton);

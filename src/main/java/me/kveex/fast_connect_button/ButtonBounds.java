@@ -1,5 +1,6 @@
 package me.kveex.fast_connect_button;
 
+@SuppressWarnings("unused")
 public enum ButtonBounds {
     ON_RIGHT_SINGLEPLAYER(105, 50, 0),
     ON_LEFT_SINGLEPLAYER(-155, 50, 0),
@@ -7,7 +8,8 @@ public enum ButtonBounds {
     ON_LEFT_MULTIPLAYER(-155, 50, 24),
     REPLACE_SINGLEPLAYER(-100, 200, 0),
     REPLACE_MULTIPLAYER(-100, 200, 24),
-    REPLACE_REALMS(-100, 200, 48);
+    REPLACE_REALMS(-100, 200, 48),
+    NOWHERE(0, 0, 0);
 
     public final int xOffset;
     public final int width;

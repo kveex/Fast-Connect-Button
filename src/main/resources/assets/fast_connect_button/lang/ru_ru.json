@@ -1,0 +1,13 @@
+{
+  "fast_connect_button.configuration.title": "Настройки Кнопки Быстрого Подключения",
+  "fast_connect_button.configuration.section.fast.connect.button.client.toml": "Настройки Кнопки Быстрого Подключения",
+  "fast_connect_button.configuration.section.fast.connect.button.client.toml.title": "Настройки Кнопки Быстрого Подключения",
+  "fast_connect_button.configuration.serverAddress": "Адрес Сервера",
+  "fast_connect_button.configuration.serverAddress.tooltip": "Адрес сервера, к которому нужно подключиться",
+  "fast_connect_button.configuration.buttonPlacement": "Расположение Кнопки",
+  "fast_connect_button.configuration.showAddressOnHover": "Показать Адрес Сервера",
+  "fast_connect_button.configuration.buttonText": "Текст Кнопки",
+  "fast_connect_button.configuration.showAddressOnHover.tooltip": "Должен ли отображаться адрес сервера при наведении курсора на кнопку",
+  "fast_connect_button.configuration.buttonPlacement.tooltip": "Где будет находиться кнопка на главном экране",
+  "fast_connect_button.configuration.buttonText.tooltip": "Текст, написанный на кнопке"
+}

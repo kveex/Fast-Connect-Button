@@ -3,5 +3,11 @@
   "fast_connect_button.configuration.section.fast.connect.button.client.toml": "Fast Connect Button Config",
   "fast_connect_button.configuration.section.fast.connect.button.client.toml.title": "Fast Connect Button Config",
   "fast_connect_button.configuration.serverAddress": "Server Address",
-  "fast_connect_button.configuration.serverAddress.tooltip": "Address of a server to connect to"
+  "fast_connect_button.configuration.serverAddress.tooltip": "Address of a server to connect to",
+  "fast_connect_button.configuration.buttonPlacement": "Button Placement",
+  "fast_connect_button.configuration.showAddressOnHover": "Show Server Address",
+  "fast_connect_button.configuration.buttonText": "Button Text",
+  "fast_connect_button.configuration.showAddressOnHover.tooltip": "Should server address be shown while hovering over button",
+  "fast_connect_button.configuration.buttonPlacement.tooltip": "Where button is placed on title screen",
+  "fast_connect_button.configuration.buttonText.tooltip": "Text displayed on a button"
 }
