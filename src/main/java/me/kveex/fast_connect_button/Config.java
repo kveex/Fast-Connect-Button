@@ -22,7 +22,7 @@ public class Config {
     private static boolean validateAddress(final Object value) {
         if (!(value instanceof String address)) return false;
 
-        return address.matches("^([a-zA-Z0-9.-]+)(:\\d{1,5})?$");
+        return address.matches("^[^\\s:]+(:\\d{1,5})?$");
     }
 
     public static ServerAddress getServerAddress() {
