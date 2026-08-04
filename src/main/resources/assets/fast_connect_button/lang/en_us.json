@@ -9,5 +9,13 @@
   "fast_connect_button.configuration.buttonText": "Button Text",
   "fast_connect_button.configuration.showAddressOnHover.tooltip": "Should server address be shown while hovering over button",
   "fast_connect_button.configuration.buttonPlacement.tooltip": "Where button is placed on title screen",
+  "fast_connect_button.configuration.buttonPlacement.on_right_singleplayer": "On Right Singleplayer",
+  "fast_connect_button.configuration.buttonPlacement.on_right_multiplayer": "On Right Multiplayer",
+  "fast_connect_button.configuration.buttonPlacement.on_left_singleplayer": "On Left Singleplayer",
+  "fast_connect_button.configuration.buttonPlacement.on_left_multiplayer": "On Left Multiplayer",
+  "fast_connect_button.configuration.buttonPlacement.replace_singleplayer": "Replace Singleplayer",
+  "fast_connect_button.configuration.buttonPlacement.replace_multiplayer": "Replace Multiplayer",
+  "fast_connect_button.configuration.buttonPlacement.replace_realms": "Replace Realms",
+  "fast_connect_button.configuration.buttonPlacement.nowhere": "Nowhere",
   "fast_connect_button.configuration.buttonText.tooltip": "Text displayed on a button"
 }

@@ -1,7 +1,13 @@
 package me.kveex.fast_connect_button;
 
+import net.minecraft.network.chat.Component;
+import net.neoforged.neoforge.common.TranslatableEnum;
+import org.jetbrains.annotations.NotNull;
+
+import java.util.Locale;
+
 @SuppressWarnings("unused")
-public enum ButtonBounds {
+public enum ButtonBounds implements TranslatableEnum {
     ON_RIGHT_SINGLEPLAYER(105, 50, 0),
     ON_LEFT_SINGLEPLAYER(-155, 50, 0),
     ON_RIGHT_MULTIPLAYER(105, 50, 24),
@@ -19,5 +25,10 @@ public enum ButtonBounds {
         this.xOffset = xOffset;
         this.width = buttonWidth;
         this.rowHeight = rowHeight;
+    }
+
+    @Override
+    public @NotNull Component getTranslatedName() {
+        return Component.translatable(FastConnectButton.MOD_ID + ".configuration.buttonPlacement." + name().toLowerCase(Locale.ENGLISH));
     }
 }

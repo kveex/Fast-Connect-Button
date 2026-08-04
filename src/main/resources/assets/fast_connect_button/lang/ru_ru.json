@@ -9,5 +9,13 @@
   "fast_connect_button.configuration.buttonText": "Текст Кнопки",
   "fast_connect_button.configuration.showAddressOnHover.tooltip": "Должен ли отображаться адрес сервера при наведении курсора на кнопку",
   "fast_connect_button.configuration.buttonPlacement.tooltip": "Где будет находиться кнопка на главном экране",
+  "fast_connect_button.configuration.buttonPlacement.on_right_singleplayer": "Справа Одиночной Игры",
+  "fast_connect_button.configuration.buttonPlacement.on_right_multiplayer": "Справа Многопользовательской Игры",
+  "fast_connect_button.configuration.buttonPlacement.on_left_singleplayer": "Слева Одиночной Игры",
+  "fast_connect_button.configuration.buttonPlacement.on_left_multiplayer": "Слева Многопользовательской Игры",
+  "fast_connect_button.configuration.buttonPlacement.replace_singleplayer": "Заменить Одиночную Игру",
+  "fast_connect_button.configuration.buttonPlacement.replace_multiplayer": "Заменить Многопользовательскую Игру",
+  "fast_connect_button.configuration.buttonPlacement.replace_realms": "Заменить Realms",
+  "fast_connect_button.configuration.buttonPlacement.nowhere": "Нигде",
   "fast_connect_button.configuration.buttonText.tooltip": "Текст, написанный на кнопке"
 }
