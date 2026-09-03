@@ -30,6 +30,10 @@ platform {
 			fabricLikeVersionRange = ">=${prop("deps.fabric-loader")}"
 		}
 		optional("modmenu") {}
+		required("yet_another_config_lib_v3") {
+			slug("yacl")
+			fabricLikeVersionRange = ">=${prop("deps.yacl")}-fabric"
+		}
 	}
 }
 
@@ -63,6 +67,7 @@ repositories {
 	mavenCentral()
 	strictMaven("https://maven.terraformersmc.com/", "com.terraformersmc") { name = "TerraformersMC" }
 	strictMaven("https://api.modrinth.com/maven", "maven.modrinth") { name = "Modrinth" }
+	strictMaven("https://maven.isxander.dev/releases")
 }
 
 configurations.all {
@@ -84,5 +89,6 @@ dependencies {
 	// implementation(libs.moulberry.mixinconstraints)
 	// include(libs.moulberry.mixinconstraints)
 	modImplementation("net.fabricmc.fabric-api:fabric-api:${prop("deps.fabric-api")}")
-	modLocalRuntime("com.terraformersmc:modmenu:${prop("deps.modmenu")}")
+	modImplementation("com.terraformersmc:modmenu:${prop("deps.modmenu")}")
+	modImplementation("dev.isxander:yet-another-config-lib:${prop("deps.yacl")}-fabric")
 }

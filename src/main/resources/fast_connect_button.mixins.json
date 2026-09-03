@@ -1,0 +1,13 @@
+{
+  "package": "me.kveex.fast_connect_button.mixin",
+  "required": true,
+  "minVersion": "0.8",
+  "compatibilityLevel": "${java}",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [],
+  "client": [
+    "OnDisconnectMixin"
+  ]
+}

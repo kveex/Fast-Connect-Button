@@ -22,6 +22,10 @@ platform {
 		required("neoforge") {
 			forgeLikeVersionRange.set("[1,)")
 		}
+		required("yet_another_config_lib_v3") {
+			slug("yacl")
+			forgeLikeVersionRange = "[${prop("deps.yacl")}-neoforge,)"
+		}
 	}
 }
 
@@ -61,11 +65,11 @@ neoForge {
 repositories {
 	mavenCentral()
 	strictMaven("https://api.modrinth.com/maven", "maven.modrinth") { name = "Modrinth" }
+	strictMaven("https://maven.isxander.dev/releases")
 }
 
 dependencies {
-	// implementation(libs.moulberry.mixinconstraints)
-	// jarJar(libs.moulberry.mixinconstraints)
+	implementation("dev.isxander:yet-another-config-lib:${prop("deps.yacl")}-neoforge")
 }
 
 tasks.named("createMinecraftArtifacts") {
