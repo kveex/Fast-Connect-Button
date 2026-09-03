@@ -98,7 +98,9 @@ fun Project.configureModPublishing(ctx: Context) {
 		}
 
 		modrinth(ctx, ctx.publishAdditionalVersions, mrStaging, modrinthAccessToken)
-		if (!mrStaging) curseforge(ctx, ctx.publishAdditionalVersions, curseforgeAccessToken)
+		if (!mrStaging && !curseforgeAccessToken.isNullOrBlank()) {
+			curseforge(ctx, ctx.publishAdditionalVersions, curseforgeAccessToken)
+		}
 	}
 }
 
